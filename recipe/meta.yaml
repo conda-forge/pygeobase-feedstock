@@ -1,4 +1,4 @@
-{% set version = "0.3.13" %}
+{% set version = "0.3.18" %}
 
 package:
   name: pygeobase
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygeobase-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeobase/pygeobase-{{ version }}.tar.gz
-  sha256: 49f2af0b9dd4e147e8abd51bb36f66e174f29db86c5ac0b14a8b379709d1f6b1
+  sha256: 52bc4f0bbf0b42143d9476d418c5217eebc6ecf7d72d9c4c698296ca0dda2f91
 
 build:
   number: 0
