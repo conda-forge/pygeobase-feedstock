@@ -1,4 +1,4 @@
-{% set version = "0.3.13" %}
+{% set version = "0.4.0" %}
 
 package:
   name: pygeobase
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygeobase-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeobase/pygeobase-{{ version }}.tar.gz
-  sha256: 49f2af0b9dd4e147e8abd51bb36f66e174f29db86c5ac0b14a8b379709d1f6b1
+  sha256: 92cb16cbe2a4f2a758913808c4e83c6175d74b5fdf51ab42deb1a1f62c125171
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   home: https://github.com/TUW-GEO/pygeobase
   license: BSD 3-Clause
   license_file: LICENSE.txt
-  summary: 'Base class definition for I/O interfaces of poets°'
+  summary: Base class definition for I/O interfaces of poets°
 
 extra:
   recipe-maintainers:
